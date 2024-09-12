@@ -14,4 +14,4 @@ PS1='[\u@\h \W]\$ '
 alias hyprcfg="micro ~/.config/hypr/hyprland.conf"
 
 alias dwmcfg="cd ~/dwm/dwm/; micro config.h"
-alias gitpush="git add .; git commit -m auto; git push"
+alias gitpush="read -p 'Commit name: ' commitname; git add .; git commit -m \"\$commitname\"; git push"
