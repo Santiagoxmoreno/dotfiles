@@ -9,3 +9,6 @@ ln -sf ~/dotfiles/.emacs.d/init.el ~/.emacs.d/init.el
 ln -sf ~/dotfiles/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ln -sf ~/dotfiles/.config/picom.conf ~/.config/picom.conf
 ln -sf ~/dotfiles/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+
+#vm hooks
+sudo ln -sf ~/dotfiles/hooks /etc/libvirt
