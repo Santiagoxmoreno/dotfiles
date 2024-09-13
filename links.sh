@@ -2,7 +2,6 @@
 ln -sf ~/dotfiles/.xinitrc ~/.xinitrc
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 ln -sf ~/dotfiles/.fehbg ~/.fehbg
-ln -sf ~/dotfiles/bg.jpg ~/bg.jpg
 ln -sf ~/dotfiles/.emacs.d/init.el ~/.emacs.d/init.el
 
 #.config
