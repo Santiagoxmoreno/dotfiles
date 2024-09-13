@@ -4,6 +4,16 @@ background = "#000000"
 [window]
 opacity = 0.75
 
+#[font]
+#size = 11
+#normal = {family = "JetBrainsMonoNerd Font", style="Regular"}
+#bold = {family = "JetBrainsMonoNerd Font", style="Bold"}
+#italic = {family = "JetBrainsMonoNerd Font", style="Italic"}
+#bold_italic = {family = "JetBrainsMonoNerd Font", style="Bold Italic"}
+
 [font]
-# size = 11.0
-# normal = {family = "NotoSansMono-Regular", style="Regular"}
+size = 11
+normal = {family = "NotoSansMono", style="Regular"}
+bold = {family = "NotoSansMono", style="Bold"}
+italic = {family = "NotoSansMono", style="Italic"}
+bold_italic = {family = "NotoSansMono", style="Bold Italic"}
