@@ -17,3 +17,5 @@ alias dwmcfg="cd ~/dwm/dwm/; micro config.h"
 alias gitpush="read -p 'Commit name: ' commitname; git add .; git commit -m \"\$commitname\"; git push"
 alias startvm="sudo virsh start win10"
 alias fixres="xrandr --output HDMI-0 --auto"
+
+export "MICRO_TRUECOLOR=1"
