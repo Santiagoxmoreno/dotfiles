@@ -7,5 +7,7 @@ slstatus & #status bar
 ~/.fehbg & #background
 picom & #compositor
 clipmenud & #clipboard manager
+dunst & #notification daemon
+pasystray & #audio systray icon
 
 exec dwm
