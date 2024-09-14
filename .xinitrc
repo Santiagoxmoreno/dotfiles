@@ -8,6 +8,6 @@ slstatus & #status bar
 picom & #compositor
 clipmenud & #clipboard manager
 dunst & #notification daemon
-pasystray & #audio systray icon
+pasystray -t & #audio systray icon -t for no tooltip
 
 exec dwm
