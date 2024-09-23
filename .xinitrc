@@ -11,6 +11,5 @@ slstatus & #status bar
 picom & #compositor
 clipmenud & #clipboard manager
 dunst & #notification daemon
-pasystray -t --notify=systray_action & #audio systray icon -t for no tooltip
 
 exec dwm
