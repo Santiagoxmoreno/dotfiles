@@ -25,5 +25,7 @@ echo 1 > /sys/class/vtconsole/vtcon0/bind
 modprobe nvidia_drm
 modprobe nvidia_modeset
 modprobe nvidia
-# modprobe i2c_nvidia_gpu
 modprobe nvidia_uvm
+
+# Wake terminal 
+setterm --blank poke 
