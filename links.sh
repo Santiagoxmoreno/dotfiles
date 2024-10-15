@@ -14,3 +14,6 @@ sudo ln -sf ~/dotfiles/hooks /etc/libvirt
 
 #env
 sudo ln -sf ~/dotfiles/environment /etc/environment
+
+#lol
+sudo ln -s /bin/alacritty /bin/xterm
