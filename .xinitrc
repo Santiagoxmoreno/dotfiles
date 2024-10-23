@@ -8,6 +8,7 @@ slstatus & #status bar
 picom & #compositor
 clipmenud & #clipboard manager
 dunst & #notification daemon
-/usr/lib/xdg-desktop-portal-gtk &
+/usr/lib/xdg-desktop-portal-gtk & #desktop portal
+redshift -l -35:-58 & #night light
 
 exec dwm
