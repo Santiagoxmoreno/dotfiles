@@ -7,6 +7,7 @@ ln -sf ~/dotfiles/.fehbg ~/.fehbg
 ln -sf ~/dotfiles/.config/picom.conf ~/.config/picom.conf
 ln -sf ~/dotfiles/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 ln -sf ~/dotfiles/.config/micro/colorschemes/sangl.micro ~/.config/micro/colorschemes/sangl.micro
+ln -sf ~/dotfiles/.config/feh/buttons ~/.config/feh/buttons
 
 #vm hooks
 sudo ln -sf ~/dotfiles/hooks /etc/libvirt
@@ -15,4 +16,4 @@ sudo ln -sf ~/dotfiles/hooks /etc/libvirt
 sudo ln -sf ~/dotfiles/environment /etc/environment
 
 #lol
-sudo ln -s /bin/alacritty /bin/xterm
+sudo ln -sf /bin/alacritty /bin/xterm
