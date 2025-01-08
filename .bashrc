@@ -19,5 +19,6 @@ alias startvm="sudo virsh start win10"
 alias fixres="xrandr --output HDMI-0 --auto"
 alias fixinput='setxkbmap -layout latam; xinput set-prop "9" "libinput Accel Profile Enabled" 0 1 0; xinput set-prop "9" "libinput Accel Speed" -0.75'
 alias copy='xclip -i -selection clipboard' 
+alias play='mpv $(xclip -o -selection clipboard)'
 
 export "MICRO_TRUECOLOR=1"
