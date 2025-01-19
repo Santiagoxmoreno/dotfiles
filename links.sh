@@ -1,6 +1,7 @@
 #home
 ln -sf ~/dotfiles/.xinitrc ~/.xinitrc
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/.zshrc.local ~/.zshrc.local
 ln -sf ~/dotfiles/.fehbg ~/.fehbg
 
 #.config

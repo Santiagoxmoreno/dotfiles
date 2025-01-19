@@ -1,0 +1,4 @@
+prompt default
+
+PROMPT='[%n@%m %1~]$ '
+
