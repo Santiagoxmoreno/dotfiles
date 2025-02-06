@@ -20,6 +20,6 @@ alias fixres="xrandr --output HDMI-0 --auto"
 alias fixinput='setxkbmap -layout latam; xinput set-prop "Corsair Corsair Gaming HARPOON RGB Mouse" "libinput Accel Profile Enabled" 0 1 0; xinput set-prop "Corsair Corsair Gaming HARPOON RGB Mouse" "libinput Accel Speed" -0.75'
 alias copy='xclip -i -selection clipboard' 
 alias play='mpv $(xclip -o -selection clipboard)'
-alias ssh ="TERM=xterm-256color ssh"
+alias ssh="TERM=xterm-256color ssh"
 
 export "MICRO_TRUECOLOR=1"
