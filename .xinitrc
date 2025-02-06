@@ -6,7 +6,7 @@ xinput set-prop "Corsair Corsair Gaming HARPOON RGB Mouse" "libinput Accel Speed
 slstatus & #status bar
 ~/.fehbg & #background
 picom & #compositor
-clipmenud & #clipboard manager
+CM_SELECTIONS=clipboard clipmenud & #clipboard manager
 dunst & #notification daemon
 /usr/lib/xdg-desktop-portal-gtk & #desktop portal
 redshift -l -35:-58 & #night light
