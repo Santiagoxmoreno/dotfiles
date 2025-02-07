@@ -22,3 +22,4 @@ function fixinput
 end
 
 set -x MICRO_TRUECOLOR 1
+set -U fish_prompt_pwd_dir_length 0
