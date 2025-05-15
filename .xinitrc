@@ -1,7 +1,7 @@
 #!/bin/bash
 setxkbmap -layout es #keyboard layout
-xinput set-prop "Corsair Corsair Gaming HARPOON RGB Mouse" "libinput Accel Profile Enabled" 0 1 0 #disable accel
-xinput set-prop "Corsair Corsair Gaming HARPOON RGB Mouse" "libinput Accel Speed" -0.75 #sensitivity 
+xinput set-prop "Logitech G305" "libinput Accel Profile Enabled" 0 1 0 #disable accel
+xinput set-prop "Logitech G305" "libinput Accel Speed" -0.75 #sensitivity 
 
 export SHELL=/usr/bin/fish
 

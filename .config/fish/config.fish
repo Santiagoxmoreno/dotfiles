@@ -17,8 +17,8 @@ end
 
 function fixinput
     setxkbmap -layout latam
-    xinput set-prop "Corsair Corsair Gaming HARPOON RGB Mouse" "libinput Accel Profile Enabled" 0 1 0
-    xinput set-prop "Corsair Corsair Gaming HARPOON RGB Mouse" "libinput Accel Speed" -0.75
+    xinput set-prop "Logitech G305" "libinput Accel Profile Enabled" 0 1 0
+    xinput set-prop "Logitech G305" "libinput Accel Speed" -0.75
 end
 
 set -x MICRO_TRUECOLOR 1
